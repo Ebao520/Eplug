@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Upgrade>
+ <!--服务器地址-->
+ <UpgradeUrl>https://eplusvip.net/AboutBox/</UpgradeUrl>
+ <!--更新完成后运行的主程序名称-->
+ <RunMain>ClientMain.exe</RunMain>
+ <!--更新程序名称-->
+ <AutoUpgrade>AutoUpgrade.exe</AutoUpgrade>
+ <Files>
+ <!--更新文件列表,以Version为标志,当Version改变时,客户端启动会自动更新。子路径格式：\image\index.jpg-->
+ <File Version="01" Name="\image\index.jpg" />
+ <File Version="01" Name="ClientMain.exe" />
+ <File Version="01" Name="AutoUpgrade.exe" />
+ </Files>
+</Upgrade>
